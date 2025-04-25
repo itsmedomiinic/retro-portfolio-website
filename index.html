@@ -51,21 +51,46 @@
       </div>
           
 
-      <div id="ProjectsWindow" class="window" style="top: 150px; left: 150px; width: 300px">
-          <div class="title-bar">
-            <div class="title-bar-text">Projects</div>
-            <div class="title-bar-controls">
-                <button aria-label="Minimize" onclick="minimizeWindow('ProjectsWindow')"></button>
-                <button aria-label="Close" onclick="closeWindow('ProjectsWindow')"></button>
-              </div>
+      <div id="projectsWindow" class="window" style="top: 150px; left: 150px; width: 600px; display: none;">
+        <div class="title-bar">
+          <div class="title-bar-text">Projects</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize" onclick="minimizeWindow('projectsWindow')"></button>
+            <button aria-label="Close" onclick="closeWindow('projectsWindow')"></button>
           </div>
-          <div class="window-body">
-            <ul>
-              <li>Project 1 - 12</li>
-              <li>Project 2</li>
-              <li>Project 3</li>
-            </ul>
+        </div>
+        <div class="window-body file-explorer">
+          <div class="file-icon" ondblclick="openProject('project1')">
+            <img src="images/icons/directory_closed-4.png" alt="Folder Icon" />
+            <span>Virtual Art Gallery - M.C Escher</span>
           </div>
+          <div class="file-icon" ondblclick="openProject('project2')">
+            <img src="images/icons/directory_closed-4.png" alt="Folder Icon" />
+            <span>Castle Defender Mobile App Game</span>
+          </div>
+          <!-- Add more projects here -->
+        </div>
+      </div>
+
+      <div id="project1" class="window project-preview" style="top: 150px; left: 180px; width: 500px; display: none;">
+        <div class="title-bar">
+          <div class="title-bar-text">Virtual Art Gallery - M.C Escher</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize" onclick="minimizeWindow('project1')"></button>
+            <button aria-label="Close" onclick="closeWindow('project1')"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <img src="images/projects/VRMenu1.png" alt="Screenshot 1" style="width: 100%; margin-bottom: 0.5rem;" />
+          <img src="images/projects/VRGame1.png" alt="Screenshot 2" style="width: 100%; margin-bottom: 0.5rem;" />
+          <img src="images/projects/VRGame2.png" alt="Screenshot 3" style="width: 100%; margin-bottom: 0.5rem;" />
+          <pre class="txt-file">
+      Project: Virtual Art Gallery - M.C Escher
+      ---------------------------
+      A virtual art gallery showcasing works by M. C. Escher, complete with AI-generated audio tours
+and custom 3D assets.
+          </pre>
+        </div>
       </div>
 
       <div id="CVWindow" class="window" style="top: 200px; left: 200px; width: 300px">

@@ -95,3 +95,10 @@ function makeDraggable(element) {
 
 // Apply to all .window elements that have a title bar
 document.querySelectorAll('.window').forEach(makeDraggable);
+
+function openProject(id) {
+  const win = document.getElementById(id);
+  win.style.display = 'block';
+  highestZ++;
+  win.style.zIndex = highestZ;
+}
