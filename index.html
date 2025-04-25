@@ -9,14 +9,14 @@
   </head>
   <body>
     <div class="desktop">
-      <div class="icon" onclick="toggleWindow('aboutWindow')">
+      <div class="icon" onclick="toggleWindow('CMDWindow')">
         <img
           src="images/icons/console_prompt-0.png"
         />
         <div>Command Prompt</div>
       </div>
 
-      <div class="icon" onclick="toggleWindow('projectsWindow')">
+      <div class="icon" onclick="toggleWindow('ProjectsWindow')">
         <img
           src="images/icons/directory_closed-4.png"
         />
@@ -28,17 +28,17 @@
         <div>CV.txt</div>
       </div>
 
-      <div class="icon" onclick="toggleWindow('contactWindow')">
+      <div class="icon" onclick="toggleWindow('ContactWindow')">
         <img src="images/icons/modem-5.png" />
         <div>Contact</div>
       </div>
 
-      <div id="aboutWindow" class="window" style="top: 100px; left: 100px; width: 400px; display: none;">
+      <div id="CMDWindow" class="window" style="top: 100px; left: 100px; width: 400px; display: none;">
         <div class="title-bar">
           <div class="title-bar-text">Command Prompt</div>
           <div class="title-bar-controls">
-            <button aria-label="Minimize" onclick="minimizeWindow('aboutWindow')"></button>
-            <button aria-label="Close" onclick="closeWindow('aboutWindow')"></button>
+            <button aria-label="Minimize" onclick="minimizeWindow('CMDWindow')"></button>
+            <button aria-label="Close" onclick="closeWindow('CMDWindow')"></button>
           </div>
         </div>
         <div class="cmd-style" style="padding: 0;">
@@ -51,12 +51,12 @@
       </div>
           
 
-      <div id="projectsWindow" class="window" style="top: 150px; left: 150px; width: 300px">
+      <div id="ProjectsWindow" class="window" style="top: 150px; left: 150px; width: 300px">
           <div class="title-bar">
             <div class="title-bar-text">Projects</div>
             <div class="title-bar-controls">
-                <button aria-label="Minimize" onclick="minimizeWindow('projectsWindow')"></button>
-                <button aria-label="Close" onclick="closeWindow('projectsWindow')"></button>
+                <button aria-label="Minimize" onclick="minimizeWindow('ProjectsWindow')"></button>
+                <button aria-label="Close" onclick="closeWindow('ProjectsWindow')"></button>
               </div>
           </div>
           <div class="window-body">
@@ -82,12 +82,12 @@
       </div>
     </div>
 
-    <div id="contactWindow" class="window" style="top: 250px; left: 250px; width: 300px">
+    <div id="ContactWindow" class="window" style="top: 250px; left: 250px; width: 300px">
           <div class="title-bar">
             <div class="title-bar-text">Contact</div>
             <div class="title-bar-controls">
-                <button aria-label="Minimize" onclick="minimizeWindow('contactWindow')"></button>
-                <button aria-label="Close" onclick="closeWindow('contactWindow')"></button>
+                <button aria-label="Minimize" onclick="minimizeWindow('ContactWindow')"></button>
+                <button aria-label="Close" onclick="closeWindow('ContactWindow')"></button>
               </div>
           </div>
           <div class="window-body">
