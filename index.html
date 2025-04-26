@@ -10,16 +10,12 @@
   <body>
     <div class="desktop">
       <div class="icon" onclick="toggleWindow('CMDWindow')">
-        <img
-          src="images/icons/console_prompt-0.png"
-        />
+        <img src="images/icons/console_prompt-0.png" />
         <div>Command Prompt</div>
       </div>
 
       <div class="icon" onclick="toggleWindow('ProjectsWindow')">
-        <img
-          src="images/icons/directory_closed-4.png"
-        />
+        <img src="images/icons/directory_closed-4.png" />
         <div>Projects</div>
       </div>
 
@@ -33,72 +29,119 @@
         <div>Contact</div>
       </div>
 
-      <div id="CMDWindow" class="window" style="top: 100px; left: 100px; width: 400px; display: none;">
+      <div
+        id="CMDWindow"
+        class="window"
+        style="top: 100px; left: 100px; width: 400px; display: none"
+      >
         <div class="title-bar">
           <div class="title-bar-text">Command Prompt</div>
           <div class="title-bar-controls">
-            <button aria-label="Minimize" onclick="minimizeWindow('CMDWindow')"></button>
-            <button aria-label="Close" onclick="closeWindow('CMDWindow')"></button>
+            <button
+              aria-label="Minimize"
+              onclick="minimizeWindow('CMDWindow')"
+            ></button>
+            <button
+              aria-label="Close"
+              onclick="closeWindow('CMDWindow')"
+            ></button>
           </div>
         </div>
-        <div class="cmd-style" style="padding: 0;">
-            <p>C:\> Hi, I'm Dominic Vega Ocampo!</p>
-            <p>C:\> Welcome to this Windows 95 inspired webpage!</p>
-            <p>C:\> This was created as a fun little side project to act as my portfolio website!</p>
-            <p>C:\> Please do scroll through the folders to learn more!</p> 
-            <p>C:\> <span class="cursor">_</span></p>
+        <div class="cmd-style" style="padding: 0">
+          <p>C:\> Hi, I'm Dominic Vega Ocampo!</p>
+          <p>C:\> Welcome to this Windows 95 inspired webpage!</p>
+          <p>
+            C:\> This was created as a fun little side project to act as my
+            portfolio website!
+          </p>
+          <p>C:\> Please do scroll through the folders to learn more!</p>
+          <p>C:\> <span class="cursor">_</span></p>
         </div>
       </div>
-          
 
-      <div id="ProjectsWindow" class="window" style="top: 150px; left: 150px; width: 300px">
-          <div class="title-bar">
-            <div class="title-bar-text">Projects</div>
-            <div class="title-bar-controls">
-                <button aria-label="Minimize" onclick="minimizeWindow('ProjectsWindow')"></button>
-                <button aria-label="Close" onclick="closeWindow('ProjectsWindow')"></button>
-              </div>
+      <div
+        id="ProjectsWindow"
+        class="window"
+        style="top: 150px; left: 150px; width: 300px"
+      >
+        <div class="title-bar">
+          <div class="title-bar-text">Projects</div>
+          <div class="title-bar-controls">
+            <button
+              aria-label="Minimize"
+              onclick="minimizeWindow('ProjectsWindow')"
+            ></button>
+            <button
+              aria-label="Close"
+              onclick="closeWindow('ProjectsWindow')"
+            ></button>
           </div>
-          <div class="window-body">
-            <ul>
-              <li>Project 1 - 12</li>
-              <li>Project 2</li>
-              <li>Project 3</li>
-            </ul>
-          </div>
+        </div>
+        <div class="window-body">
+          <ul>
+            <li>Project 1 - 12</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+          </ul>
+        </div>
       </div>
 
-      <div id="CVWindow" class="window" style="top: 200px; left: 200px; width: 300px">
-          <div class="title-bar">
-            <div class="title-bar-text">CV.txt</div>
-            <div class="title-bar-controls">
-                <button aria-label="Minimize" onclick="minimizeWindow('CVWindow')"></button>
-                <button aria-label="Close" onclick="closeWindow('CVWindow')"></button>
-              </div>
+      <div
+        id="CVWindow"
+        class="window"
+        style="
+          top: 200px;
+          left: 200px;
+          width: 500px;
+          height: 400px;
+          display: none;
+        "
+      >
+        <div class="title-bar">
+          <div class="title-bar-text">CV.txt</div>
+          <div class="title-bar-controls">
+            <button
+              aria-label="Minimize"
+              onclick="minimizeWindow('CVWindow')"
+            ></button>
+            <button
+              aria-label="Close"
+              onclick="closeWindow('CVWindow')"
+            ></button>
           </div>
-          <div class="window-body">
-            <p>Here is my CV ...</p>
-          </div>
+        </div>
+        <div class="txt-style" style="padding: 0">
+          <p>Add CV Text Here...</p>
+        </div>
       </div>
-    </div>
 
-    <div id="ContactWindow" class="window" style="top: 250px; left: 250px; width: 300px">
-          <div class="title-bar">
-            <div class="title-bar-text">Contact</div>
-            <div class="title-bar-controls">
-                <button aria-label="Minimize" onclick="minimizeWindow('ContactWindow')"></button>
-                <button aria-label="Close" onclick="closeWindow('ContactWindow')"></button>
-              </div>
+      <div
+        id="ContactWindow"
+        class="window"
+        style="top: 250px; left: 250px; width: 300px"
+      >
+        <div class="title-bar">
+          <div class="title-bar-text">Contact</div>
+          <div class="title-bar-controls">
+            <button
+              aria-label="Minimize"
+              onclick="minimizeWindow('ContactWindow')"
+            ></button>
+            <button
+              aria-label="Close"
+              onclick="closeWindow('ContactWindow')"
+            ></button>
           </div>
-          <div class="window-body">
-            <p>You can contact me here.</p>
-          </div>
+        </div>
+        <div class="window-body">
+          <p>You can contact me here.</p>
+        </div>
       </div>
     </div>
 
     <div class="taskbar">
       <button class="start-button" onclick="toggleStartMenu()">Start</button>
-      <div id="taskbarIcons" style="display: flex; gap: 4px;"></div>
+      <div id="taskbarIcons" style="display: flex; gap: 4px"></div>
       <div style="margin-left: auto; padding: 0 10px">🕒 4:20 PM</div>
     </div>
 

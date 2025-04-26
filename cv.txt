@@ -1,0 +1,98 @@
+Dominic Vega Ocampo
+--------------------
+📧 DominicVOcampo@gmail.com | 📞 07399618042 | 📍 Reading, United Kingdom
+
+Full-stack developer with nearly 2 years of professional experience building scalable web
+applications using JavaScript, Vue.js and Node.js. Passionate about learning new technologies
+and thrives in collaborative team environments. Currently seeking a role where I can continue to
+grow and contribute to impactful and exciting projects.
+
+Technical Skills:
+Programming Languages: JavaScript, TypeScript, Java, Python, C#, HTML
+Frameworks: Vue.js, Node.js, Spring Boot
+Databases: PostgreSQL, DynamoDB, Redis
+Tools: Git, Docker, Jenkins, GitHub Actions, AWS (Lambda, S3, EC2, RDS, ECS)
+Testing: Jest, JUnit, Cypress
+Other: REST APIs, Microservices, Agile, TDD
+
+Projects:
+Backend Aircraft Data Processing Platform (Work / Internal Project)
+Backend system designed for processing and distributing flight data across services, from
+ingestion to final notification delivery (e.g diagnostic engine data).
+    - Developed using Maven for Java-based services and Node.js for event-driven
+processing
+    - Built with a microservices architecture, leveraging various AWS services for data
+ingestion, processing, and distribution - including: Lambda, ECS, SQS, Kinesis, RDS,
+and DynamoDB
+
+CANS – Central Aerospace Notification System (Work / Internal Project)
+Full-stack web application for managing and distributing aerospace-related notifications across
+the organisation.
+    - Built using Spring Boot for backend services and Vue.js for the frontend user interface
+    - Designed and implemented RESTful APIs for secure transmission of diagnostic and
+operational data
+    - Migrated CI/CD pipeline from Jenkins to AWS CodePipeline and CodeBuild, improving
+deployment speed and reliability
+    - Wrote unit and integration tests with JUnit (Jupiter), and end-to-end tests using Cypress
+for frontend reliability practising TDD
+
+Virtual Art Gallery - M.C Escher (Final Year University Project)
+A virtual art gallery showcasing works by M. C. Escher, complete with AI-generated audio tours
+and custom 3D assets.
+    - Developed using Unity Engine and C# for movement and interactive environment
+    - Created custom 3D models in Blender for an accurate representation of Escher’s art
+    - Designed an intuitive user interface for smooth navigation and enhanced user
+experience
+
+Castle Defender Mobile App Game (University Project)
+Endless runner mobile game with real-time battle mechanics and scoring system.
+    - Developed in Java using Android Studio with emulated android devices
+    - Implemented object collision detection for dynamic gameplay interaction
+    - Integrated persistent score tracking for high score retention and gameplay progression
+
+Employment and Work Experience:
+GE Aviation - Full Stack Software Developer - July 2023 - Present
+Aerospace & defense engineering division of General Electric
+    - Developed internal tools and applications to support aerospace systems and operations,
+ensuring compliance with strict industry standards. Including the Backend Aircraft Data
+Processing Platform and CANS projects.
+    - Collaborated with cross-functional teams to deliver secure and scalable software
+solutions.
+
+Capita - Cloud Developer Training Programme - October 2022 - July 2023
+Business process outsourcing company
+    - Completed AWS re/Start program and gained hands-on experience with AWS services
+(Lambda, EC2, S3, DynamoDB, etc.), Python programming, and networking.
+
+H&M - Sales Associate - September 2021 - November 2022
+Global fashion retail brand.
+    - Provided excellent customer service and managed inventory in a fast-paced retail
+environment
+
+LDY Services - Kitchen Assistant - May 2019 - August 2019
+Catering company for high profile clients.
+    - Assisted in cleaning, food preparation and cooking under time constraints.
+    - Provided customer service in a fast-paced environment, collaborating with the team.
+
+Charterhouse Muller UK Ltd - Internship / Work Experience - November 2016
+A leading specialist in IT asset disposal, focused on protecting data during asset retirement.
+    - Gained knowledge of data protection and secure asset retirement methods, including
+hard drives.
+    - Catered to specific customer needs, adapting methods of asset retirement to different
+requirements.
+
+Cisco Systems Reading - Internship / Work Experience - June 2016
+Leader in IT, networking, and cybersecurity solutions.
+    - Gained hands-on experience with LAN setup and server maintenance
+    - Developed teamwork and communication skills through group tasks including developing
+a weather forecast app in Python
+
+Education:
+University of Reading - Sept 2018 to July 2021
+    - BSc Computer Science - Graduated with a First Class
+Blessed Hugh Faringdon Specialist Performing Arts College - Sept 2011 to July 2018
+    - A-Levels: BTEC ICT Distinction, Business Studies B, Mathematics C
+    - 11 GCSEs at grades A-C, including Maths, English and Sciences
+
+References:
+Available on request
